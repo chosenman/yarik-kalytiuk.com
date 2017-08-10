@@ -1,0 +1,154 @@
+	@import 'vendors/_bootstrap.scss';
+
+// variables
+
+	$sfontsize:15px;
+	$gray-darker:  lighten(#000, 13.5%); // #222
+	$gray-dark:    lighten(#000, 20%);   // #333
+	$gray:         lighten(#000, 33.5%); // #555
+	$gray-light:   lighten(#000, 46.7%); // #777
+	$gray-lighter: lighten(#000, 93.5%); // #eee
+
+	/* primary color */
+	$primary-color: #3b5a76;
+	$background-color: #ededed;
+	$text-color:#363636;
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// our stylesheet body
+
+canvas {display:block; position:fixed; z-index:0;}
+section {
+	padding:30px 0;
+}
+
+body {
+
+	font-size:$sfontsize;
+	background: $background-color;
+	font-family: 'Open Sans', Arial, Tahoma;
+	color:$text-color;
+}
+
+h2 {
+	font-weight:700;
+	text-transform:uppercase;
+	line-height: 1.4em;
+	font-size:1.5em;
+}
+
+.primary, strong, h2 {
+	color: $primary-color;
+}
+.container {
+	background: $gray-lighter;
+}
+
+	.container-main {
+		background:#fff;
+		margin: 80px auto 0;
+		padding: 0 30px 30px 30px;
+	}
+
+header {
+	min-height:100px;
+	overflow:auto
+}
+	header h1 {
+		margin:50px 0 0 0;
+		padding:20px 0 0 0;
+		font-size:2.2em;
+		font-weight: 700;
+		text-transform:uppercase;
+		letter-spacing:-1px;
+		text-align:center;
+		line-height:1.4em;
+	}
+
+.row {
+	margin-bottom:20px;
+}
+
+.profile-image {
+	width:160px;
+	display:block;
+	margin:-60px auto;
+	@include border-radius(50%);
+}
+
+.line {
+	max-width:100%;
+}
+
+.contact-list {
+	padding:0;
+	margin:0;
+}
+
+	.contact-list li {
+		list-style:none;
+		font-weight:bold;
+		line-height:3.2em;
+	}
+	
+	.contact-list img {
+		max-width:30px;
+	}
+
+	.contact-list span {
+		display:block;
+		margin:0 0 0 35px;
+		padding:0;
+		line-height:0.1em;
+		font-size:15px;
+		color:#ccc;
+	}
+
+
+	.media {
+		background:$background-color;
+		padding:10px;
+		@include border-radius(5px);
+	}
+		.transparent {
+			background: #fff;
+			margin:0;
+			padding-top:5px;
+			padding-bottom:0px;
+		}		
+		.transparent .media-left {
+			width:33%; 
+			font-weight:bold;
+		}
+
+	.work-list li {
+		list-style:none;
+		float:left;
+		padding:0 10px;
+		margin:0 0 30px 0;
+	}
+
+	footer {
+		color:$primary-color;
+		text-align:center;
+		padding: 20px 0;
+	}
+
+	h4 a {
+		font-weight:bold;
+		color:#1c2e44;
+	}
+		h4 a:hover { text-decoration:none; }
+			h4 a:before {	content: "+"}
+			h4 a:focus:before {	content: "-"; text-decoration:none;}
+
+
+			#experience .media-left {
+				min-width:90px; 
+			} 
