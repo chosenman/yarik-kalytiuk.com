@@ -34,14 +34,14 @@
       <header>
         <h1>Hello, my name is <strong>Yarik Kalytiuk</strong> and I am Web Developer</h1>
       </header>
-
+      
       <img src="img/line.png" class="line">
 
 
 
 <div class="row">
   <div class=" col-md-7">
-
+      
   </div>
   <div class="col-md-5">
             <a class="rdownload" href="https://drive.google.com/open?id=0B7SwdL2o7p_1NFRXSS13QzhSOFU" target="_blank">
@@ -53,32 +53,102 @@
 </div>
 
       <b>Projects (python, java, html...) | Graphic works (drawings, web design, textures for 3d modelss) | SEO</b>
-
+        
 <div class="row">
      <div class="col-md-7" >
             <?  include 'portfolio/projects.php';   ?>
      </div>
-
+ 
     <!-- left column -->
      <div class="col-md-5" >
          ddd
      </div>
     <!-- left column -->
-</div>
-
+</div>   
+       
         <div class="row">
         <div class="col-md-7">
+        
 
-
-
-
+        
+        
 <!--     left column       -->
       <a name="portfolio"></a><h2># Portfolio</h2>
 <!-- start accordion group -->
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <!-- tab 1 -->
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading1">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+          Online Store "Coffee 911" (responsive)
+        </a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+      <div class="panel-body">
+<h3><a href="http://coffee911.kiev.ua"  target="_blank">coffee911.kiev.ua</a></h3>  
+<ul>
+  <li>Created page designs and graphic mockup of all page types: front page, catalog, item, cart, customer profile and article using Adobe Photoshop</li>
+  <li>Converted graphic mockup to responsive HTML/CSS template, tested in the most popular browsers, and mobile device bowsers</li>
+  <li>Wrote numerous technical descriptions and tasks</li>
+  <li>Integrated template to CMS MODx using JavaScript, PHP, MySQL, FTP, web-hosting admin panel and implemented functional parts of project:<br />
+  - catalog items with custom fields<br />
+  - item page<br />
+  - catalog output page with pagination<br />
+  - working shopping cart and order page<br />
+  - second language (Ukrainian)</li>
+  <li>Created video-manual for adding/editing of items</li>
+  <li>Analyzed business requirements and suggested many improvements to the product features</li>
+  <li>Worked with another programmer to implement:<br />
+  - filters<br />
+  - customer profile page<br />
+  - fast item editing table using<br />
+  - order history<br />
+  - login and registration using social networks<br />
+  - call-back button<br />
+  - price import from .xml file using cron<br />
+  - reviews with stars<br />
+  - security audit</li>
+  <li>Implemented search engine optimization work including on-site SEO and Google Webmaster, Google Analytics tools</li>
+</ul> 
 
+      </div>
+    </div>
+  </div>
+  <!-- tab 1 end -->
 
+  <!-- tab 2 -->
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="heading2">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+          Startup page "EspressoPoint"
+        </a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+      <div class="panel-body">
 
+      <h3><a href="http://espresso-point.com.ua/"  target="_blank">
+      espresso-point.com.ua</a></h3>  
+
+      <ul>
+        <li>Created page&rsquo;s design using Adobe Photoshop: front page, buy mobile coffeeshop, drink map, business calculator</li>
+        <li>Converted graphic mockups into HTML/CSS templates</li>
+        <li>Programmed template into CMS MODx using PHP, JavaScript, MySQL, FTP, web-hosting admin panel</li>
+        <li>Developed elements:<br />
+        - budget calculator using JavaScript, HTML, CSS<br />
+        - 360 &deg; rotation presentation using footage of rendered 3d model<br />
+        - authorization for customers<br />
+        - drink map catalog</li>
+        <li>Supervised creation of mobile coffee-shop 3d model</li>
+      </ul>
+
+      </div>
+    </div>
+  </div>
+<!-- tab 2 end -->
 
 <!-- tab 3 -->
   <div class="panel panel-default">
@@ -93,8 +163,8 @@
       <div class="panel-body">
 
       <h3><a href="http://autopoisk24.net/"  target="_blank">
-      autopoisk24.net</a></h3>
-
+      autopoisk24.net</a></h3>  
+      
       <ul>
         <li>Made analysis of user behavior and experience, using Yandex Metrica Web Visor tool</li>
         <li>Based on UX research created improved page design in Photoshop (<a href="works/autopoisk1.jpg" target="_blank">preview 1</a>), ( <a href="works/autopoisk2.jpg" target="_blank">preview 2</a>)</li>
@@ -127,8 +197,8 @@
       <div class="panel-body">
 
       <h3><a href="http://web-gate.org/to/go.php?url=http://morecoffee.com.ua"  target="_blank">
-      morecoffee.com.ua</a></h3>
-
+      morecoffee.com.ua</a></h3>  
+      
         <ul>
           <li>Developed design in Photoshop, including pages: front page, catalog, item page, cart page. Project had two design releases</li>
           <li>Converted design mockup into HTML/CSS template, using Bootstrap.</li>
@@ -163,8 +233,8 @@
       <div class="panel-body">
 
       <h3><a href="http://pan-star.com.ua/"  target="_blank">
-      pan-star.com.ua</a></h3>
-
+      pan-star.com.ua</a></h3>  
+      
         <ul>
           <li>Drew design of the website using Adobe Photoshop</li>
           <li>Converted design into HTML/CSS template using JavaScript</li>
@@ -195,7 +265,7 @@
       <div class="panel-body">
 
       <h3><a href="http://web-gate.org/"  target="_blank">
-      web-gate.org</a></h3>
+      web-gate.org</a></h3> 
 
         <ul>
           <li>Developed design of the website using Adobe Photoshop</li>
@@ -222,11 +292,11 @@
     <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
       <div class="panel-body">
 
-      <h3><a href="http://web-gate.org/assets/files/KARCHER/karcher3/index.html"  target="_blank"> Kärcher template 1 </a></h3>
-      <h3><a href="http://web-gate.org/assets/files/KARCHER/maxiland/index.htm"  target="_blank"> Kärcher template 2 </a></h3>
-      <h3><a href="http://web-gate.org/assets/files/KARCHER/profitrade/index.html"  target="_blank"> Kärcher template 3 </a></h3>
-      <h3><a href="http://web-gate.org/show/in-ua-unon/index.html"  target="_blank"> Unon template 4</a></h3>
-
+      <h3><a href="http://web-gate.org/assets/files/KARCHER/karcher3/index.html"  target="_blank"> Kärcher template 1 </a></h3>  
+      <h3><a href="http://web-gate.org/assets/files/KARCHER/maxiland/index.htm"  target="_blank"> Kärcher template 2 </a></h3>  
+      <h3><a href="http://web-gate.org/assets/files/KARCHER/profitrade/index.html"  target="_blank"> Kärcher template 3 </a></h3>  
+      <h3><a href="http://web-gate.org/show/in-ua-unon/index.html"  target="_blank"> Unon template 4</a></h3>   
+      
       <ul>
         <li>Created project description and project documentation</li>
         <li>Created design mockups using Adobe Photoshop for e-commerce projects</li>
@@ -250,9 +320,9 @@
     <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
       <div class="panel-body">
 
-      <h3><a href="http://naumenkophotographer.com.ua"  target="_blank"> naumenkophotographer.com.ua</a></h3>
+      <h3><a href="http://naumenkophotographer.com.ua"  target="_blank"> naumenkophotographer.com.ua</a></h3>  
 
-
+      
       <ul>
         <li>Designed website layout using Adobe Photoshop</li>
         <li>Converted design into responsive HTML/CSS template, using Bootstrap and JavaScript</li>
@@ -271,18 +341,18 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading9">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse9"
               aria-controls="collapse9">
           Information Portal "My Obolon" (responsive)
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse9" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse9" class="panel-collapse collapse"                 
                             aria-labelledby="heading9">
       <div class="panel-body">
 
-      <h3><a href="http://my-obolon.kiev.ua"  target="_blank"> my-obolon.kiev.ua</a></h3>
+      <h3><a href="http://my-obolon.kiev.ua"  target="_blank"> my-obolon.kiev.ua</a></h3>  
 
         <ul>
           <li>Created design of the website using Adobe Photoshop</li>
@@ -302,18 +372,18 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading10">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse10"
               aria-controls="collapse10">
           Photographer Website "Photowizard"
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse10" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse10" class="panel-collapse collapse"                 
                             aria-labelledby="heading10">
       <div class="panel-body">
 
-      <h3><a href="http://photowizard.com.ua"  target="_blank"> photowizard.com.ua</a></h3>
+      <h3><a href="http://photowizard.com.ua"  target="_blank"> photowizard.com.ua</a></h3>  
 
             <ul>
               <li>Developed website design using Adobe Photoshop</li>
@@ -332,18 +402,18 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading11">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse11"
               aria-controls="collapse11">
           Paper Cup Plant Company Website
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse11" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse11" class="panel-collapse collapse"                 
                             aria-labelledby="heading11">
       <div class="panel-body">
 
-      <h3><a href="http://super-cup.kiev.ua"  target="_blank"> super-cup.kiev.ua</a></h3>
+      <h3><a href="http://super-cup.kiev.ua"  target="_blank"> super-cup.kiev.ua</a></h3>  
 
           <ul>
             <li>Developed design of the webpage using Adobe Photoshop</li>
@@ -365,18 +435,18 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading12">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse12"
               aria-controls="collapse12">
           Furniture Online Store "Imebli"
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse12" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse12" class="panel-collapse collapse"                 
                             aria-labelledby="heading12">
       <div class="panel-body">
 
-      <h3><a href="http://imebli.com.ua"  target="_blank">imebli.com.ua</a></h3>
+      <h3><a href="http://imebli.com.ua"  target="_blank">imebli.com.ua</a></h3>  
 
           <ul>
             <li>Created website design using Adobe Photoshop</li>
@@ -395,18 +465,18 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading13">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse13"
               aria-controls="collapse13">
           Car-tuning Company Website  (responsive)
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse13" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse13" class="panel-collapse collapse"                 
                             aria-labelledby="heading13">
       <div class="panel-body">
 
-      <h3><a href="http://Tune-up.com.ua"  target="_blank">Tune-up.com.ua</a></h3>
+      <h3><a href="http://Tune-up.com.ua"  target="_blank">Tune-up.com.ua</a></h3>  
 
         <ul>
           <li>Upgraded old version of the website, made file and database backup</li>
@@ -429,19 +499,19 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading14">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse14"
               aria-controls="collapse14">
           Information Sports Website "Schoolfield"
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse14" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse14" class="panel-collapse collapse"                 
                             aria-labelledby="heading14">
       <div class="panel-body">
 
-      <h3><a href="http://schoolfield.com.ua"  target="_blank">schoolfield.com.ua</a></h3>
-
+      <h3><a href="http://schoolfield.com.ua"  target="_blank">schoolfield.com.ua</a></h3>  
+      
           <ul>
             <li>Designed page mockup using Adobe Photoshop</li>
             <li>Developed project description and documentation</li>
@@ -460,19 +530,19 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading15">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse15"
               aria-controls="collapse15">
           Online Store of Electronics "Deziri"
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse15" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse15" class="panel-collapse collapse"                 
                             aria-labelledby="heading15">
       <div class="panel-body">
 
-      <h3><a href="http://deziri.kiev.ua"  target="_blank">deziri.kiev.ua</a></h3>
-
+      <h3><a href="http://deziri.kiev.ua"  target="_blank">deziri.kiev.ua</a></h3>  
+      
         <ul>
           <li>Developed design layout and icons set using Adobe Photoshop</li>
           <li>Converted design into HTLM/CSS/JavaScript template</li>
@@ -491,19 +561,19 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading16">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse16"
               aria-controls="collapse16">
           Information Website "Taxi Online"
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse16" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse16" class="panel-collapse collapse"                 
                             aria-labelledby="heading16">
       <div class="panel-body">
 
-      <h3><a href="http://taxi-online.kiev.ua"  target="_blank">taxi-online.kiev.ua</a></h3>
-
+      <h3><a href="http://taxi-online.kiev.ua"  target="_blank">taxi-online.kiev.ua</a></h3>  
+      
           <ul>
             <li>Created website design and icons set using Adobe Photoshop</li>
             <li>Converted design into HTML/CSS template</li>
@@ -522,19 +592,19 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading17">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse17"
               aria-controls="collapse17">
           Auto Parts Reseller Website "Vazila"
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse17" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse17" class="panel-collapse collapse"                 
                             aria-labelledby="heading17">
       <div class="panel-body">
 
-      <h3><a href="http://vazila.com.ua"  target="_blank">vazila.com.ua</a></h3>
-
+      <h3><a href="http://vazila.com.ua"  target="_blank">vazila.com.ua</a></h3>  
+      
       <ul>
         <li>Developed design layout using Adobe Photoshop</li>
         <li>Converted design into HTML/CSS template</li>
@@ -553,19 +623,19 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading18">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse18"
               aria-controls="collapse18">
           Local Taxi Website "Taxi Melodia"
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse18" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse18" class="panel-collapse collapse"                 
                             aria-labelledby="heading18">
       <div class="panel-body">
 
-      <h3><a href="http://taxi-melodia.kiev.ua"  target="_blank">taxi-melodia.kiev.ua</a></h3>
-
+      <h3><a href="http://taxi-melodia.kiev.ua"  target="_blank">taxi-melodia.kiev.ua</a></h3>  
+      
         <ul>
           <li>Created design layout using Adobe Photoshop</li>
           <li>Converted design into HTML/CSS template using JavaScript</li>
@@ -583,19 +653,19 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading19">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse19"
               aria-controls="collapse19">
           Advertising Company Website "Reklamex"
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse19" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse19" class="panel-collapse collapse"                 
                             aria-labelledby="heading19">
       <div class="panel-body">
 
-      <h3><a href="http://reklamex.kiev.ua"  target="_blank">reklamex.kiev.ua</a></h3>
-
+      <h3><a href="http://reklamex.kiev.ua"  target="_blank">reklamex.kiev.ua</a></h3>  
+      
         <ul>
           <li>Drew design of the website using Adobe Photoshop</li>
           <li>Converted design into HTML/CSS template</li>
@@ -612,19 +682,19 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading20">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse20"
               aria-controls="collapse20">
           Personal Make Up Website
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse20" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse20" class="panel-collapse collapse"                 
                             aria-labelledby="heading20">
       <div class="panel-body">
 
-      <h3><a href="http://best-make-up.kiev.ua"  target="_blank">best-make-up.kiev.ua</a></h3>
-
+      <h3><a href="http://best-make-up.kiev.ua"  target="_blank">best-make-up.kiev.ua</a></h3>  
+      
         <ul>
           <li>Converted design mockup it into HTML/CSS template</li>
           <li>Integrated template into MODx Revolution using JavaScript, PHP, MySQL, FTP, web-hosting admin panel</li>
@@ -641,19 +711,19 @@
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="heading21">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false"
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"  aria-expanded="false" 
                       href="#collapse21"
               aria-controls="collapse21">
           Tennis Coach Website
         </a>
       </h4>
     </div>
-    <div role="tabpanel" id="collapse21" class="panel-collapse collapse"
+    <div role="tabpanel" id="collapse21" class="panel-collapse collapse"                 
                             aria-labelledby="heading21">
       <div class="panel-body">
 
-      <h3><a href="http://school-tennis.com.ua"  target="_blank">school-tennis.com.ua</a></h3>
-
+      <h3><a href="http://school-tennis.com.ua"  target="_blank">school-tennis.com.ua</a></h3>  
+      
         <ul>
           <li>Developed website design using Adobe Photoshop</li>
           <li>Converted design into HTML/CSS template</li>
@@ -673,29 +743,29 @@
         </div>
 
         <div class="col-md-5" >
-
-
+         
+ 
 
           <h2>#Contact Info</h2>
           <ul class="contact-list">
-            <li><img src="img/phone.png">
+            <li><img src="img/phone.png"> 
               510 491-89-19</li>
-            <li><img src="img/mail.png">
+            <li><img src="img/mail.png"> 
               iaroslav.kalytiuk@gmail.com</li>
-            <li><img src="img/linkedin.png"> linkedin
+            <li><img src="img/linkedin.png"> linkedin 
                 <span><a href="https://www.linkedin.com/in/chosenman/" target="_blank">
                  linkedin.com/in/chosenman/
                 </a></span></li>
-            <li><img src="img/github.png"> github
+            <li><img src="img/github.png"> github 
                   <span><a href="https://github.com/chosenman" target="_blank">
                   github.com/chosenman
                   </a></span></li>
           </ul>
 
-
+        
           </div>
         <div class="col-md-5">
-
+         
           <h2># Programming Skills</h2>
 
           <div class="media transparent">
@@ -736,7 +806,7 @@
           <div class="media transparent">
             <div class="media-left">SEO Tools:</div>
             <div class="media-body">
-              Google Analytics, Google Webmaster, Yandex Metrica, Yandex Webmaster,
+              Google Analytics, Google Webmaster, Yandex Metrica, Yandex Webmaster, 
 Yahoo Webmaster, Bing Webmaster, Majestic SEO, ahrefs
 
             </div>

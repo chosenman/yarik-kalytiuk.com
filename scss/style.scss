@@ -98,7 +98,7 @@ header {
 		font-weight:bold;
 		line-height:3.2em;
 	}
-	
+
 	.contact-list img {
 		max-width:30px;
 	}
@@ -123,9 +123,9 @@ header {
 			margin:0;
 			padding-top:5px;
 			padding-bottom:0px;
-		}		
+		}
 		.transparent .media-left {
-			width:33%; 
+			width:33%;
 			font-weight:bold;
 		}
 
@@ -144,7 +144,7 @@ header {
 
 	h4 a {
 		font-weight:bold;
-		color:#1c2e44; 
+		color:#1c2e44;
 	}
 		h4 a:hover { text-decoration:none; }
 			h4 a:before {	content: "+"}
@@ -152,8 +152,8 @@ header {
 
 
 			#experience .media-left {
-				min-width:90px; 
-			} 
+				min-width:90px;
+			}
 
 /* */
 .mybutt {
@@ -163,14 +163,14 @@ header {
 //background: -webkit-linear-gradient(top, #98a3ba 0%,#3b5a76 100%); /* Chrome10-25,Safari5.1-6 */
 //background: linear-gradient(to bottom, #98a3ba 0%,#3b5a76 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#98a3ba', endColorstr='#3b5a76',GradientType=0 ); /* IE6-9 */
-    
+
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9dd53a+0,72b500+100 */
 background: #9dd53a; /* Old browsers */
 background: -moz-linear-gradient(top, #9dd53a 0%, #72b500 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #9dd53a 0%,#72b500 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #9dd53a 0%,#72b500 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#72b500',GradientType=0 ); /* IE6-9 */
-    
+
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -190,4 +190,30 @@ a.rdownload:hover  { text-decoration: none;}
     border: 2px solid #fff;
 
     box-shadow: none;
+}
+
+h4 span {
+	color:#999;
+}
+
+.thumbnail a.exticon {
+	display: block;
+	position:relative;
+}
+.thumbnail a.exticon span{
+	position: absolute;
+	top:0;right:0;
+	display: block;
+	width: 27px;height: 26px;
+	background: url(../img/link-icon.png) top right no-repeat;
+}
+.thumbnail h4 {
+	cursor:pointer;
+}
+.myclose {
+	color:#cc3333;
+	font-size:3em;
+}
+.my-btn-success a {
+	color:#fff;
 }

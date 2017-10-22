@@ -8126,3 +8126,35 @@ a.rdownload:hover {
   border: 2px solid #fff;
   box-shadow: none;
 }
+
+h4 span {
+  color: #999;
+}
+
+.thumbnail a.exticon {
+  display: block;
+  position: relative;
+}
+
+.thumbnail a.exticon span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 27px;
+  height: 26px;
+  background: url(../img/link-icon.png) top right no-repeat;
+}
+
+.thumbnail h4 {
+  cursor: pointer;
+}
+
+.myclose {
+  color: #cc3333;
+  font-size: 3em;
+}
+
+.my-btn-success a {
+  color: #fff;
+}

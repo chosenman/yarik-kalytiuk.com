@@ -1,7 +1,14 @@
-<div class="row">
-  <div class="col-xs-6 col-md-3">
-    <a href="#" class="thumbnail">
-      <img src="..." alt="...">
-    </a>
-  </div>
+<div class="bs-example" data-example-id="thumbnails-with-custom-content">
+    <div class="row">
+
+    <?  include 'web/911.php';   ?>
+    <?  include 'web/espresso_point.php';   ?>
+    <?  include 'web/autopoisk.php';   ?>
+
+
+
+
+
+
+    </div>
 </div>
