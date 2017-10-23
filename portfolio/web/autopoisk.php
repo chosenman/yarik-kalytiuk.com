@@ -1,9 +1,11 @@
 <div class="col-sm-6 col-md-6">
     <div class="thumbnail">
-
+        <a href="http://autopoisk24.net/" target="_blank" class="exticon">
         <img src="img/sites/autopoisk.jpg" alt="...">
+        <span></span>
+        </a>
         <div class="caption">
-            <h4 data-toggle="modal" data-target="#autopoisk">Used car service
+            <h4 data-toggle="modal" data-target="#autopoisk">Used car from Europe service
               ... <span>more details</span>
             </h4>
             <p>

@@ -217,3 +217,12 @@ h4 span {
 .my-btn-success a {
 	color:#fff;
 }
+	.modal-footer .my-btn-success {
+		border:none;
+		color:#3b5a76;
+		text-decoration:underline;
+		font-size:2em;
+		padding-right:35px;
+		background-color:none;
+		background: url(../img/link-icon.png) center right no-repeat;
+	}

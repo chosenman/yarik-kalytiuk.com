@@ -1,7 +1,9 @@
 <div class="col-sm-6 col-md-6">
     <div class="thumbnail">
-
+        <a href="http://espresso-point.com.ua/" target="_blank" class="exticon">
         <img src="img/sites/espresso-point.jpg" alt="...">
+        <span></span>
+        </a>
         <div class="caption">
             <h4 data-toggle="modal" data-target="#epoint">Startup page "EspressoPoint"
               ... <span>more details</span>
