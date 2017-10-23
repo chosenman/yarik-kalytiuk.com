@@ -5,11 +5,11 @@
         <span></span>
         </a>
         <div class="caption">
-            <h4 data-toggle="modal" data-target="#pan-star">Car-tuning Company  (responsive)  ... <span>more details</span>
+            <h4 data-toggle="modal" data-target="#tuneup">Car-tuning Company  (responsive)  ... <span>more details</span>
             </h4>
             <p>
             <!-- Modal -->
-            <div class="modal fade" id="pan-star" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal fade" id="tuneup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">

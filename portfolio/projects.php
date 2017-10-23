@@ -21,7 +21,19 @@
 
     <?  include 'web/tuneup.php';   ?>
 
+    <?  include 'web/sf.php';   ?>
+
+    <?  include 'web/deziri.php';   ?>
+
+    <?  include 'web/to.php';   ?>
+
     <?  include 'web/pan-star.php';   ?>
+
+    <?  include 'web/vazila.php';   ?>
+
+    <?  include 'web/reklamex.php';   ?>
+
+    <?  include 'web/best-make-up.php';   ?>
 
 
     </div>
