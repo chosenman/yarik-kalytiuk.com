@@ -32,7 +32,7 @@
        <img src="img/person.png" class="profile-image" >
 
       <header>
-        <h1>Hello, my name is <strong>Yarik Kalytiuk</strong> and I am a Web Developer</h1>
+        <h1>my name is <strong>Yarik Kalytiuk</strong> and I am a professional Web Developer</h1>
       </header>
 
       <img src="img/line.png" class="line">
