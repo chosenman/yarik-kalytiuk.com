@@ -32,7 +32,7 @@
        <img src="img/person.png" class="profile-image" >
 
       <header>
-        <h1>Hello, my name is <strong>Yarik Kalytiuk</strong> and I am Web Developer</h1>
+        <h1>Hello, my name is <strong>Yarik Kalytiuk</strong> and I am a Web Developer</h1>
       </header>
 
       <img src="img/line.png" class="line">
@@ -86,11 +86,11 @@
 
 
           </div>
-        <div class="col-md-5">
+        <div class="col-md-5 skills">
 
           <h2># Programming Skills</h2>
 
-          <div class="media transparent">
+          <div class="media transparent first">
             <div class="media-left">Programming:</div>
             <div class="media-body">
               HTML, SHTML, CSS, SASS, JavaScript, AJAX, PHP, JSON, XML, .htaccess, Java
@@ -145,7 +145,7 @@ Yahoo Webmaster, Bing Webmaster, Majestic SEO, ahrefs
             <div class="media-body">Android, Windows Mobile, iOS</div>
           </div>
 
-          <div class="media transparent">
+          <div class="media transparent last">
             <div class="media-left">IDEs:</div>
             <div class="media-body">phpSrorm, phpDesigner, Eclipse, Visual Studio</div>
           </div>

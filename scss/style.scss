@@ -226,3 +226,17 @@ h4 span {
 		background-color:none;
 		background: url(../img/link-icon.png) center right no-repeat;
 	}
+
+
+.skills .media {
+	margin-bottom:1px;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0 0px;
+}
+.skills .first {
+	border-radius: 5px 5px 0px 0px;
+}
+.skills .last {
+	border-radius:  0px 0px 5px 5px;
+}
