@@ -3,6 +3,8 @@
 
     <?  include 'web/911.php';   ?>
 
+    <?  include 'web/morecoffee.php';   ?>
+
     <?  include 'web/espresso_point.php';   ?>
 
     <?  include 'web/naumenko.php';   ?>
@@ -10,8 +12,6 @@
     <?  include 'web/obolon.php';   ?>
 
     <?  include 'web/autopoisk.php';   ?>
-
-    <?  include 'web/morecoffee.php';   ?>
 
     <?  include 'web/web-gate.php';   ?>
 

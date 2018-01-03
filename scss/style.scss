@@ -196,6 +196,13 @@ h4 span {
 	color:#999;
 }
 
+.thumbnail {
+	background-color: transparent;
+	background-image: url('../img/bgcontainer.png');
+	border:none;
+}
+
+
 .thumbnail a.exticon {
 	display: block;
 	position:relative;
@@ -239,4 +246,10 @@ h4 span {
 }
 .skills .last {
 	border-radius:  0px 0px 5px 5px;
+}
+
+
+
+.nav-tabs {
+	padding-bottom: 20px;
 }

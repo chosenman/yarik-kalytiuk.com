@@ -52,14 +52,44 @@
     </div>
 </div>
 
-      <!-- <b>Projects (python, java, html...) | Graphic works (drawings, web design, textures for 3d modelss) | SEO</b> -->
+      <!-- <b>Projects (python, java, html...) | Graphic works ( drawings, web design ) | SEO</b> -->
+      <!-- Back-End | Front-End | Graphic -->
 
         <div class="row">
+<script type="text/javascript">
+
+  $('#back_end').tab('show');
+  $('#front_end').tab('show');
+
+</script>
+
             <div class="col-md-7">
                 <!--     left column       -->
                 <a name="portfolio"></a><h2># Portfolio</h2>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active">
+                    <a href="#back_end" aria-controls="back_end" role="tab" data-toggle="tab">
+                      Back-End/ Programming
+                  </a></li>
+                  <li role="presentation">
+                    <a href="#front_end" aria-controls="front_end" role="tab" data-toggle="tab">
+                      Front-End/ UI/ Design
+                    </a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel" class="tab-pane active pt-3" id="back_end">
+                    <?  include 'portfolio/backend.php';   ?>
+                  </div>
+                  <div role="tabpanel" class="tab-pane pt-3" id="front_end">
+                    <?  include 'portfolio/projects.php';   ?>
+                  </div>
+                </div>
+
                 <!-- start accordion group -->
-                <?  include 'portfolio/projects.php';   ?>
                 <!-- start accordion group -->
                 <!--     left column       -->
             </div>
