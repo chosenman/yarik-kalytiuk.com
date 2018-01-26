@@ -200,20 +200,70 @@ h4 span {
 	background-color: transparent;
 	background-image: url('../img/bgcontainer.png');
 	border:none;
+	position:relative;
 }
 
 
 .thumbnail a.exticon {
 	display: block;
 	position:relative;
+	border:1px solid #ccc;
 }
 .thumbnail a.exticon span{
 	position: absolute;
-	top:0;right:0;
+	top:-2px;right:-2px;
 	display: block;
-	width: 27px;height: 26px;
-	background: url(../img/link-icon.png) top right no-repeat;
+	width: 48px;height: 46px;
+	background: url(../img/external_link.png) top right no-repeat;
+	background-size: contain;
 }
+
+.thumbnail h4 {
+	padding-bottom: 10px;
+}
+// +++++
+// more details
+	.thumbnail h4 span{
+		position:absolute;
+		bottom:3px;right:3px;
+		font-weight: normal;
+	}
+		.label-exam {
+			position:absolute;
+			background-image:none;
+			height:20px;
+			display:block;
+			bottom:0px;
+			right:0;
+			width:100%;
+			background:#ccc;
+			color:#333;
+			border-top:2px solid #fff;
+		}
+			.label-exam em{
+				color:#CD3333;
+				font-weight: bold;
+				font-style:normal;
+			}
+	// +++++
+	// tags
+		.caption  em.tags {
+
+		}
+			.caption  em.tags  b {
+				display:inline-block;
+				padding:0px 4px; background: #666666;
+				color:white;
+				border-radius:3px;
+				-moz-border-radius:3px;
+				-webkit-border-radius:3px;
+				font-size:0.8em;
+				font-weight:normal;
+				font-style:normal;
+				// text-transform: lowercase;
+			}
+
+
 .thumbnail h4 {
 	cursor:pointer;
 }
@@ -231,7 +281,8 @@ h4 span {
 		font-size:2em;
 		padding-right:35px;
 		background-color:none;
-		background: url(../img/link-icon.png) center right no-repeat;
+		background: url(../img/external_link.png) center right no-repeat;
+		background-size: 35px;
 	}
 
 
@@ -252,4 +303,17 @@ h4 span {
 
 .nav-tabs {
 	padding-bottom: 20px;
+}
+ .nav-tabs li.active a, .nav-tabs li.active  {
+	border: none!important;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+
+h4 {
+	font-size: 1em;
+	font-weight: bold;
+	color: #337ab7;
 }

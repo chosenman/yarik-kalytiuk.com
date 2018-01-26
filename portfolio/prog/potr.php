@@ -5,9 +5,18 @@
         <span></span>
         </a>
         <div class="caption">
+          <!-- tags  -->
+          <em class="tags">
+              <b>ReactJS</b>
+              <b>NodeJS</b>
+              <b>Express</b>
+              <b>MongoDB</b>
+              <b>WebSocket</b>
+          </em>
+          <!-- tags  -->
             <h4 data-toggle="modal" data-target="#potr">
-              Online Auction (NodeJS, ReactJS)
-              <br>
+              Online Auction
+              
               <span>more details</span>
             </h4>
             <p>

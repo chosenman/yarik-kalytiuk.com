@@ -9602,42 +9602,93 @@ h4 span {
   background-color: transparent;
   background-image: url("../img/bgcontainer.png");
   border: none;
-}
-
-/* line 206, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
-.thumbnail a.exticon {
-  display: block;
   position: relative;
 }
 
-/* line 210, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
-.thumbnail a.exticon span {
-  position: absolute;
-  top: 0;
-  right: 0;
+/* line 207, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+.thumbnail a.exticon {
   display: block;
-  width: 27px;
-  height: 26px;
-  background: url(../img/link-icon.png) top right no-repeat;
+  position: relative;
+  border: 1px solid #ccc;
 }
 
-/* line 217, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+/* line 212, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+.thumbnail a.exticon span {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  display: block;
+  width: 48px;
+  height: 46px;
+  background: url(../img/external_link.png) top right no-repeat;
+  background-size: contain;
+}
+
+/* line 221, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+.thumbnail h4 {
+  padding-bottom: 10px;
+}
+
+/* line 226, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+.thumbnail h4 span {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  font-weight: normal;
+}
+
+/* line 231, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+.label-exam {
+  position: absolute;
+  background-image: none;
+  height: 20px;
+  display: block;
+  bottom: 0px;
+  right: 0;
+  width: 100%;
+  background: #ccc;
+  color: #333;
+  border-top: 2px solid #fff;
+}
+
+/* line 243, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+.label-exam em {
+  color: #CD3333;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* line 253, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+.caption em.tags b {
+  display: inline-block;
+  padding: 0px 4px;
+  background: #666666;
+  color: white;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  font-size: 0.8em;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 267, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
 .thumbnail h4 {
   cursor: pointer;
 }
 
-/* line 220, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+/* line 270, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
 .myclose {
   color: #cc3333;
   font-size: 3em;
 }
 
-/* line 224, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+/* line 274, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
 .my-btn-success a {
   color: #fff;
 }
 
-/* line 227, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+/* line 277, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
 .modal-footer .my-btn-success {
   border: none;
   color: #3b5a76;
@@ -9645,10 +9696,11 @@ h4 span {
   font-size: 2em;
   padding-right: 35px;
   background-color: none;
-  background: url(../img/link-icon.png) center right no-repeat;
+  background: url(../img/external_link.png) center right no-repeat;
+  background-size: 35px;
 }
 
-/* line 238, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+/* line 289, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
 .skills .media {
   margin-bottom: 1px;
   border-radius: 0px 0px 0px 0px;
@@ -9656,19 +9708,34 @@ h4 span {
   -webkit-border-radius: 0px 0px 0 0px;
 }
 
-/* line 244, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+/* line 295, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
 .skills .first {
   border-radius: 5px 5px 0px 0px;
 }
 
-/* line 247, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+/* line 298, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
 .skills .last {
   border-radius: 0px 0px 5px 5px;
 }
 
-/* line 253, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+/* line 304, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
 .nav-tabs {
   padding-bottom: 20px;
+}
+
+/* line 307, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+.nav-tabs li.active a, .nav-tabs li.active {
+  border: none !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+}
+
+/* line 315, /Users/chosenman/OneDrive/FREE PROJECTS/MAMP/yarik-kalytiuk.com/scss/style.scss */
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #337ab7;
 }
 
 /*# sourceMappingURL=../css/style.map */

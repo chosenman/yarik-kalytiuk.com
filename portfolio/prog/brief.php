@@ -5,7 +5,14 @@
         <span></span>
         </a>
         <div class="caption">
-            <h4 data-toggle="modal" data-target="#brief">OAuth Google Sign-In (NodeJS)<br> <span>more details</span>
+          <!-- tags  -->
+          <em class="tags">
+              <b>NodeJS</b>
+              <b>Express</b>
+              <b>Google Auth</b>
+          </em>
+          <!-- tags  -->
+            <h4 data-toggle="modal" data-target="#brief">OAuth Google Sign-In<br> <span>more details</span>
             </h4>
             <p>
             <!-- Modal -->

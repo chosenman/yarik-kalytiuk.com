@@ -1,6 +1,6 @@
 <div class="col-sm-6 col-md-6">
     <div class="thumbnail">
-        <a href="http://coffee911.kiev.ua" target="_blank" class="exticon">
+        <a href="http://coffee911.kiev.ua/koffee/kofe-v-zernah.html" target="_blank" class="exticon">
         <img src="img/sites/coffee911.jpg" alt="...">
         <span></span>
         </a>
@@ -48,7 +48,7 @@
                         </div>
                         <div class="modal-footer">
 
-                            <a href="http://coffee911.kiev.ua"  target="_blank">
+                            <a href="http://coffee911.kiev.ua/koffee/kofe-v-zernah.html"  target="_blank">
                               <button type="button" class="btn btn-success my-btn-success">Go to Website</button>
                             </a>
                         </div>

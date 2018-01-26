@@ -3,8 +3,17 @@
         <a href="http://shooter.yarik-deploy.com/" target="_blank" class="exticon">
         <img src="img/prog/shooter.jpg" alt="Shooter">
         <span></span>
+
         </a>
         <div class="caption">
+            <!-- tags  -->
+            <em class="tags">
+                <b>NodeJS</b>
+                <b>Express</b>
+                <b>MongoDB</b>
+                <b>WebSocket</b>
+            </em>
+            <!-- tags  -->
             <h4 data-toggle="modal" data-target="#shooter">Space Shooter real time multiplayer game
               <br> <span>more details</span>
             </h4>

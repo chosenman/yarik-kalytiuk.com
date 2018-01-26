@@ -123,24 +123,24 @@
           <div class="media transparent first">
             <div class="media-left">Programming:</div>
             <div class="media-body">
-              HTML, SHTML, CSS, SASS, JavaScript, AJAX, PHP, JSON, XML, .htaccess, Java
+              	JavaScript, NodeJS, Python, Java, HTML, CSS, JSON, TypeScript, SHTML, SASS, XML, .htaccess
             </div>
           </div>
 
           <div class="media transparent">
             <div class="media-left">Frameworks:</div>
-            <div class="media-body">Bootstrap, jQuery, Angular</div>
+            <div class="media-body">Bootstrap/jQuery, Angular 4, Django, Flask, Java Spring, Express</div>
           </div>
 
           <div class="media transparent">
             <div class="media-left">Databases:</div>
-            <div class="media-body">SQL, FoxPro</div>
+            <div class="media-body">SQL, MongoDB</div>
           </div>
 
           <div class="media transparent">
             <div class="media-left">CMS:</div>
             <div class="media-body">
-              MODx Evo, MODx Revo, Wordpress, Drupal, PrestaShop
+              MODx Evo/ Revo
             </div>
           </div>
 
@@ -151,33 +151,25 @@
 
           <div class="media transparent">
             <div class="media-left">Applications:</div>
-            <div class="media-body">Photoshop, MS Office, Corel Draw
+            <div class="media-body">Photoshop
             </div>
-          </div>
-
-          <div class="media transparent">
-            <div class="media-left">SEO Tools:</div>
-            <div class="media-body">
-              Google Analytics, Google Webmaster, Yandex Metrica, Yandex Webmaster,
-Yahoo Webmaster, Bing Webmaster, Majestic SEO, ahrefs
-
-            </div>
-          </div>
-
-          <div class="media transparent">
-            <div class="media-left">Platforms:</div>
-            <div class="media-body">Windows 98/XP/7/10, Linux, Mac OS
-            </div>
-          </div>
-
-          <div class="media transparent">
-            <div class="media-left">Mobile platforms:</div>
-            <div class="media-body">Android, Windows Mobile, iOS</div>
           </div>
 
           <div class="media transparent last">
             <div class="media-left">IDEs:</div>
-            <div class="media-body">phpSrorm, phpDesigner, Eclipse, Visual Studio</div>
+            <div class="media-body">Eclipse, Atom</div>
+          </div>
+
+          <div class="media transparent last">
+            <div class="media-left">Additional skills:</div>
+            <div class="media-body">SEO onsite/offsite optimization for organic search promotion, SEO audit</div>
+          </div>
+          
+          <div class="media transparent">
+            <div class="media-left">SEO Tools:</div>
+            <div class="media-body">
+              Google Analytics and Webmaster, Yandex Metrica and Webmaster
+            </div>
           </div>
 
         </div>
