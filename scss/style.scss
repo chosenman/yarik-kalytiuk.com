@@ -208,6 +208,7 @@ h4 span {
 	display: block;
 	position:relative;
 	border:1px solid #ccc;
+	background: #fff;
 }
 .thumbnail a.exticon span{
 	position: absolute;
@@ -220,6 +221,13 @@ h4 span {
 
 .thumbnail h4 {
 	padding-bottom: 10px;
+
+
+width: 100%;
+overflow: hidden;
+white-space: nowrap;
+-o-text-overflow: ellipsis;
+	 text-overflow: ellipsis
 }
 // +++++
 // more details
@@ -248,7 +256,9 @@ h4 span {
 	// +++++
 	// tags
 		.caption  em.tags {
-
+			overflow: hidden;
+			display:block;
+			height:22px;
 		}
 			.caption  em.tags  b {
 				display:inline-block;
@@ -281,7 +291,7 @@ h4 span {
 		font-size:2em;
 		padding-right:35px;
 		background-color:none;
-		background: url(../img/external_link.png) center right no-repeat;
+		background: url(../img/links-icon-9891.jpg) center right no-repeat;
 		background-size: 35px;
 	}
 

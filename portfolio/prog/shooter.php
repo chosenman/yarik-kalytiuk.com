@@ -32,7 +32,7 @@
                         <p><b>Solo project</b></p>
                         <p><b>Technologies</b>: NodeJS, Express, Sockets, MongoDB</p>
                             <p>
-                              <iframe width="100%" height="250"  src="https://www.youtube.com/embed/OArBE9nMZA4?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                              <iframe width="100%" height="250"  src="https://www.youtube.com/embed/3fitSsIh2KQ" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                             </p>
                             <p><b>What was done:</b></p>
                             <ul>

@@ -71,7 +71,7 @@
                 <ul class="nav nav-tabs" role="tablist">
                   <li role="presentation" class="active">
                     <a href="#back_end" aria-controls="back_end" role="tab" data-toggle="tab">
-                      Back-End/ Programming
+                      Full-Stack/ Back-End
                   </a></li>
                   <li role="presentation">
                     <a href="#front_end" aria-controls="front_end" role="tab" data-toggle="tab">
@@ -164,7 +164,7 @@
             <div class="media-left">Additional skills:</div>
             <div class="media-body">SEO onsite/offsite optimization for organic search promotion, SEO audit</div>
           </div>
-          
+
           <div class="media transparent">
             <div class="media-left">SEO Tools:</div>
             <div class="media-body">

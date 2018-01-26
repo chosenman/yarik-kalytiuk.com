@@ -1,7 +1,8 @@
 <div class="col-sm-6 col-md-6">
     <div class="thumbnail">
-
+      <a class="exticon" >
         <img src="img/sites/karcher.jpg" alt="...">
+      </a>
         <div class="caption">
             <h4 data-toggle="modal" data-target="#karcher">E-commerce templates    ... <span>more details</span>
             </h4>

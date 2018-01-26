@@ -16,7 +16,7 @@
           <!-- tags  -->
             <h4 data-toggle="modal" data-target="#potr">
               Online Auction
-              
+
               <span>more details</span>
             </h4>
             <p>
@@ -34,7 +34,7 @@
                         <div class="modal-body">
                         <!--  Description body  -->
                         <p><b>Team project</b>: Scrum methodology</p>
-                        <p><b>Technologies</b>: NodeJS, ReactJS, Express, Sockets</p>
+                        <p><b>Technologies</b>: NodeJS, ReactJS, Express, WebSocket</p>
 
                             <ul>
 
